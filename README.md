@@ -1,1 +1,9 @@
-Dentro de esta rama se encuentran diferentes codigos en varios lenguajes en donde se muestra: programación con librerias, simulaciones, retos de leetcode, algoritmos de aprendizaje de maquina, etc.
+Códigos en C, C++ y Python que abarcan:
+
+Uso de librerías en los tres lenguajes.
+
+Desarrollo de simulaciones.
+
+Resolución de retos algorítmicos (ej., LeetCode).
+
+Implementación de algoritmos como Machine Learning.
