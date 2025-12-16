@@ -7,7 +7,7 @@
 
 problem: de romano a entero 
 
-Los numeros romanso estan reresentados por siete simbolos diferentes:
+Los numeros romanos estan representados por siete simbolos diferentes:
 I, V, X, L, C, D y M.
 
 Simbolo      Valor 
