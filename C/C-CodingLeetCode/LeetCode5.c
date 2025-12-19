@@ -23,7 +23,7 @@ de los parentesis abiertos y asegurarme de que se cierren en orden correcto.
 
 int isValid(char * s) {
     char stack[100]; // pila para almacenar los caracteres
-    int top = -1;
+    int top = -1; // pila vacia
     
     for(int i = 0; s[i] != '\0'; i++) {
         char c = s[i];
