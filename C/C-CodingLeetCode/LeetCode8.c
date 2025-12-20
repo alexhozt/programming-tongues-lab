@@ -6,7 +6,7 @@
 
 Eliminar elemento
 
-Dado un array entero y un entero, elmina todas las ocurrencias in situ. El orden de los elementos puede
+Dado un array entero y un entero, elimina todas las ocurrencias in situ. El orden de los elementos puede
 cambiarse. Luego devuelve el numero de elementos en los que no son iguales a val.
 
 
@@ -30,7 +30,7 @@ Devolver cuántos elementos quedan después de "eliminar" val
 
 int removeElement(int* nums, int numsSize, int val) {
 
-    int k = 0; // contador de elementos que no son iguales a val
+    int k = 0; 
 
     for (int i = 0; i < numsSize; i++) {
         if (nums[i] != val) {
