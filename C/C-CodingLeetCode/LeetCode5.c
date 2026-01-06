@@ -31,7 +31,7 @@ int isValid(char * s) {
         if (c == '(' || c == '{' || c == '[') {
             stack[++top] = c;
         } else {
-            if (top == -1) return 0;
+            if (top == -1) return 0; 
             
             char topChar = stack[top--]; // desapilamos y comparamos 
             
@@ -55,3 +55,7 @@ int main() {
     }
     return 0;
 }
+
+
+
+

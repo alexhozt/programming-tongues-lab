@@ -41,6 +41,7 @@ int main() {
     return 0;
 }
 
+
 // reversed = reversed * 10 + digit, lo que hace es construir el numero invertido:
 // ejemplo: si el numero es 123, el proceso seria:
 // iteracion 1: digit = 3, reversed = 0 * 10 + 3 = 3

@@ -32,8 +32,9 @@ int strStr(char* haystack, char* needle) {
     // Si needle es más largo, no puede estar contenido
     if (n_len > h_len) {
         return -1;
-    }
+    } 
     
+
     // Solo buscar hasta donde needle puede caber
     for (int i = 0; i <= h_len - n_len; i++) { // ¿por que hasta h_len - n_len? porque si needle es mas largo que el resto de haystack, no puede caber
         int j = 0; // indice para needle
@@ -62,8 +63,6 @@ int main() {
     
     return 0;
 }
-
-
 
 
 /*
