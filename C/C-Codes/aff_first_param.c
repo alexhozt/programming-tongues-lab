@@ -1,3 +1,5 @@
+// code by alex
+
 #include <unistd.h>  // Biblioteca estándar de servicios del sistema operativo POSIX
                      // Proporciona la función write() para escribir en la salida estándar
 
