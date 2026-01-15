@@ -3,10 +3,10 @@
 // conversor de direccion IP de binario a decimal
 
 
-#include <stdio.h>
+#include <stdio.h> // importacion de libreria para escribir entrada y salida
 #include <stdlib.h>
 #include <string.h>
-#include <ctype.h>  //
+#include <ctype.h>  // importacion de libreria Ctype
 
 int validar_ip_binaria(const char *ip_bin) {
     // Validar longitud exacta
